@@ -155,7 +155,6 @@ The contrastive learning component uses:
 
 ## 📁 Project Structure
 
-```
 ```mermaid
 flowchart TD
 
@@ -221,8 +220,6 @@ style H fill:#607D8B,color:#fff
 style I fill:#607D8B,color:#fff
 style J fill:#607D8B,color:#fff
 ```
-```
-
 ---
 
 ## 🚀 Installation
