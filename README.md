@@ -103,7 +103,7 @@ The model has been trained on publicly available proteomics datasets and achieve
 ### 📊 Results Visualization
 
 <div align="center">
-  <img src="public/results-demo.png" alt="Results Dashboard" width="80%">
+  <img src=" " alt="Results Dashboard" width="80%">
   <p><em>Comprehensive Prediction Results Dashboard</em></p>
 </div>
 
@@ -120,7 +120,7 @@ The model has been trained on publicly available proteomics datasets and achieve
 ### System Architecture
 
 <div align="center">
-  <img src="public/architecture-diagram.png" alt="Architecture Diagram" width="80%">
+  <img src=" " alt="Architecture Diagram" width="80%">
   <p><em>VirtualCell-Simulator System Architecture</em></p>
 </div>
 
