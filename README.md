@@ -156,7 +156,7 @@ The contrastive learning component uses:
 ## 📁 Project Structure
 
 ```mermaid
-flowchart TD
+flowchart TB
 
 A[virtualcell-simulator]
 
@@ -193,7 +193,6 @@ E --> E6[ui components]
 %% Lib
 C --> F[lib]
 F --> F1[ml]
-
 F1 --> F11[vae.ts]
 F1 --> F12[contrastive.ts]
 F1 --> F13[predictor.ts]
