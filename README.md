@@ -156,40 +156,71 @@ The contrastive learning component uses:
 ## 📁 Project Structure
 
 ```
-virtualcell-simulator/
-├── 📁 public/
-│   ├── logo.png                 # Project logo
-│   ├── readme-banner.png        # README banner
-│   └── *.png                    # Documentation images
-├── 📁 src/
-│   ├── 📁 app/
-│   │   ├── 📁 api/
-│   │   │   ├── 📁 predict/      # Prediction endpoint
-│   │   │   ├── 📁 simulate/     # Simulation endpoint
-│   │   │   ├── 📁 proteins/     # Proteins data
-│   │   │   ├── 📁 perturbations/# Perturbations data
-│   │   │   └── 📁 model/        # Model status
-│   │   ├── layout.tsx           # Root layout
-│   │   └── page.tsx             # Main page
-│   ├── 📁 components/
-│   │   ├── Hero.tsx             # Landing hero section
-│   │   ├── NeuralNetwork.tsx    # Interactive NN visualization
-│   │   ├── PerturbationPanel.tsx# User input controls
-│   │   ├── ResultsVisualization.tsx # Charts & results
-│   │   ├── ModelArchitecture.tsx# Architecture display
-│   │   └── 📁 ui/               # UI components (shadcn)
-│   └── 📁 lib/
-│       ├── 📁 ml/
-│       │   ├── vae.ts           # VAE implementation
-│       │   ├── contrastive.ts   # Contrastive learning
-│       │   ├── predictor.ts     # Protein predictor
-│       │   ├── dataGenerator.ts # Sample data generator
-│       │   └── inference.ts     # Inference pipeline
-│       └── utils.ts             # Utility functions
-├── package.json
-├── next.config.ts
-├── tailwind.config.ts
-└── README.md
+```mermaid
+flowchart TD
+
+A[virtualcell-simulator]
+
+%% Public
+A --> B[public]
+B --> B1[logo.png]
+B --> B2[readme-banner.png]
+B --> B3[documentation images]
+
+%% Source
+A --> C[src]
+
+%% App
+C --> D[app]
+D --> D1[api]
+D1 --> D11[predict endpoint]
+D1 --> D12[simulate endpoint]
+D1 --> D13[proteins data]
+D1 --> D14[perturbations data]
+D1 --> D15[model status]
+
+D --> D2[layout.tsx]
+D --> D3[page.tsx]
+
+%% Components
+C --> E[components]
+E --> E1[Hero.tsx]
+E --> E2[NeuralNetwork.tsx]
+E --> E3[PerturbationPanel.tsx]
+E --> E4[ResultsVisualization.tsx]
+E --> E5[ModelArchitecture.tsx]
+E --> E6[ui components]
+
+%% Lib
+C --> F[lib]
+F --> F1[ml]
+
+F1 --> F11[vae.ts]
+F1 --> F12[contrastive.ts]
+F1 --> F13[predictor.ts]
+F1 --> F14[dataGenerator.ts]
+F1 --> F15[inference.ts]
+
+F --> F2[utils.ts]
+
+%% Root Files
+A --> G[package.json]
+A --> H[next.config.ts]
+A --> I[tailwind.config.ts]
+A --> J[README.md]
+
+%% Styling
+style A fill:#263238,color:#fff,stroke:#000,stroke-width:3px
+style B fill:#4CAF50,color:#fff
+style C fill:#2196F3,color:#fff
+style D fill:#00BCD4,color:#fff
+style E fill:#9C27B0,color:#fff
+style F fill:#FF9800,color:#000
+style G fill:#607D8B,color:#fff
+style H fill:#607D8B,color:#fff
+style I fill:#607D8B,color:#fff
+style J fill:#607D8B,color:#fff
+```
 ```
 
 ---
