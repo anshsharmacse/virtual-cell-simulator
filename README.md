@@ -90,22 +90,12 @@ The model has been trained on publicly available proteomics datasets and achieve
 
 ### 🖥️ Interactive Interface
 
-<div align="center">
-  <img src="public/neural-network-demo.png" alt="Neural Network Visualization" width="80%">
-  <p><em>Interactive Neural Network Architecture Visualization</em></p>
-</div>
-
 - **Real-time Neural Network Visualization** - Explore VAE architecture with animated data flow
 - **Click-to-inspect Neurons** - View activation values for each neuron
 - **Animated Data Particles** - Watch data flow through the network
 - **Responsive Design** - Works on desktop, tablet, and mobile
 
 ### 📊 Results Visualization
-
-<div align="center">
-  <img src=" " alt="Results Dashboard" width="80%">
-  <p><em>Comprehensive Prediction Results Dashboard</em></p>
-</div>
 
 - **Fold Change Bar Charts** - Visualize up/down-regulated proteins
 - **Scatter Plots** - Compare baseline vs predicted abundance
